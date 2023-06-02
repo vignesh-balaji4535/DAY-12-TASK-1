@@ -1,0 +1,81 @@
+.web{
+    background-color: rgb(209, 207, 207);
+    height: 100vh;
+}
+.nav_bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(30, 48, 80);
+    padding: 18px;
+   
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0  !important;
+}
+.nav_bar .nav_child{
+    width: 50%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 2px;
+    color: rgb(231, 228, 228);
+    font-size: 22px;
+    font-weight: 500;
+}
+.main_bar{
+    height:80vh;
+    margin: 50px;
+    justify-content: space-between;
+ 
+}
+.main_bar .main_child1{
+height: 75vh;
+width: 28%;
+background-color: rgb(77, 80, 83);
+border-radius: 20px;
+
+
+}
+.main_bar .main_child2{
+    height: 75vh;
+
+    width: 65%;
+    
+    }
+
+
+.main_bar .search{
+    background-color: white;
+    height: 10%;
+    margin: 0 70px 0 70px;
+    background-color:rgb(77, 80, 83) ;
+    border-radius: 10px;
+    margin-bottom: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   padding: 0 0 0 15px;
+   font-size: 30px;
+   color: rgb(153, 156, 156);
+    letter-spacing: 3px;
+    
+}
+
+
+.main_bar .box{
+height: 30%;
+justify-content: space-between;
+margin-bottom: 50px;
+}
+
+.main_bar .box .i{
+    background-color:rgb(77, 80, 83) ;
+    width: 25%;
+    border-radius: 20px;
+}
+
+.main_bar .text{
+    width: 100%;
+    height: 35%;
+    background-color:rgb(77, 80, 83) ;
+    border-radius: 20px;
+}
